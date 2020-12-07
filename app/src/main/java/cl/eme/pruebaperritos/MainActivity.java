@@ -12,38 +12,38 @@ Descripcion
 * [] 4. Debe haber un listado de fotos con los perros favoritos. (opcional)
 
 Requerimientos generales
-[] ● Utilizar un patrón de diseño MVP.
-[] ● Utilizar un sistema de control de versiones(Git). Como mínimo un commit por parte.
+[X] ● Utilizar un patrón de diseño MVP.
+[X] ● Utilizar un sistema de control de versiones(Git). Como mínimo un commit por parte.
 
 Requerimientos específicos
-[] ● API dog.ceo (Retrofit)
-[] ● Utilizar como EndPoints.
-    [] ○ breeds/list/ (Para el listado de razas).
-    [] ○ breed/{breed}/images/ (Para el listado de imágenes basándonos en una raza).
-[] ● Single Activity y las vistas en Fragmentos.
+[X] ● API dog.ceo (Retrofit)
+[X] ● Utilizar como EndPoints.
+    [X] ○ breeds/list/ (Para el listado de razas).
+    [X] ○ breed/{breed}/images/ (Para el listado de imágenes basándonos en una raza).
+[X] ● Single Activity y las vistas en Fragmentos.
 [] ● Botón que muestre el listado de favoritos.
 [] ● Imagen favorita sea almacenada en FireStore.
-[] ● Utilizar librerías externas para mostrar las imágenes (Picasso, Glide).
-[] ● Utilizar Retrofit para la conexión a la API y Gson para el mapeo de datos.
+[X] ● Utilizar librerías externas para mostrar las imágenes (Picasso, Glide).
+[X] ● Utilizar Retrofit para la conexión a la API y Gson para el mapeo de datos.
 [] ● Debe utilizar Firebase(FireStore) para almacenar datos de favoritos.
 [] ● Para unir las vistas puedes utilizar el método que estime conveniente.( findViewById,butterknife, dataBinding )
 [] ● Realizar test unitarios en el presentador.
 
 TAREAS
 Parte I - Modelo de la app
-* [] Crear Repositorio en GitHub
-* [] Añadir permisos de Internet en Manifest
+* [X] Crear Repositorio en GitHub
+* [X] Añadir permisos de Internet en Manifest
 * [X] Implementar Retrofit en build.gradle
 * [X] Habilitar librerias (Picasso y Glide)
 * [X] 1. Creación del modelo de la aplicación.
-      [] ● Crear los POJOS necesarios para recibir la información de la API.
+      [X] ● Crear los POJOS necesarios para recibir la información de la API.
       [] ● Crear el POJOS necesario para subir la colección de favoritos a FireStore (raza, url, timeStamp) .
       [] ○ Observación: Obtener el TimeStamp en formato String.
 * [] 2. Crear item_list_XXX.xml que correspondan a cada elemento a mostrar.
-* [] 3. Crear los Fragmentos necesarios:
-      [] ● Listado de razas.
-      [] ● Detalles.
-      [] ● Listado de favoritos (opcional).
+* [X] 3. Crear los Fragmentos necesarios:
+      [X] ● Listado de razas.
+      [X] ● Detalles.
+      [X] ● Listado de favoritos (opcional).
 * [] 4. Mostrar en un fragmento el RecyclerView con el listado de razas.
 * [] 5. Mostrar en un fragmento el RecyclerView con el listado de fotos de la raza seleccionada.
 * [] 6. Crear los adapters que serán necesarios para transformar los distintos DataSet.

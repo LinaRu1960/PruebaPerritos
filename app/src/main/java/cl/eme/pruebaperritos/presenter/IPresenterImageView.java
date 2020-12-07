@@ -1,4 +1,4 @@
 package cl.eme.pruebaperritos.presenter;
 
-public interface IPresenterViewDetail {
+public interface IPresenterImageView {
 }

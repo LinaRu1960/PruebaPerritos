@@ -1,4 +1,4 @@
 package cl.eme.pruebaperritos.presenter;
 
-public class Presenter {
+public class PresenterImage {
 }
